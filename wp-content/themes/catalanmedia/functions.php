@@ -19,7 +19,7 @@ class CM_Menu extends Walker_Nav_Menu {
         $permalink = $data_object->url;
 
         $output .= "<div class='nav-item'>";
-        $output .= "<a class='nav-link border m-1 custom_a' href='$permalink'>";
+        $output .= "<a class='nav-link' href='$permalink'>";
         $output .= "$title";
         $output .= "</a>";
     }
@@ -90,3 +90,4 @@ class CM_Depth_Menu extends Walker_Nav_Menu {
         parent::display_element($element, $children_elements, $max_depth, $depth, $args, $output);
     }
 }
+

@@ -11,6 +11,8 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/style.css"; ?>">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/header.css"; ?>">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/frontpage.css"; ?>">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/rugby-league.css"; ?>">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/footer.css"; ?>">
 
         <title>Catalan Media</title>
     </head>
@@ -20,7 +22,7 @@
             <div class="titles">
                 <!-- Logo -->
                 <a href="<?php echo get_bloginfo('wpurl'); ?>">
-                    <img class="logo" src=<?php echo get_template_directory_uri() . "/images/2.png"; ?> alt="logo catalan media">
+                    <img class="logo" src=<?php echo get_template_directory_uri() . "/images/logos/logo2.png"; ?> alt="logo catalan media">
                 </a>
                 <!-- Description -->
                 <h4 class="blog-description"><?php echo get_bloginfo('description'); ?></h4>

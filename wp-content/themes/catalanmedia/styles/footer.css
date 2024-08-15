@@ -1,0 +1,44 @@
+/*--- CSS Footer ---*/
+
+footer {
+    font-family: Quicksand;
+    font-size: 1.2em;
+}
+
+.f-main {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+}
+
+.f-logo {
+    align-items: center; 
+    display: flex;
+    height: 16vh;
+    justify-content: center; 
+    width: 100%;
+}
+
+.f-image {
+    width: 12vw;
+}
+
+.f-menu {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-left: inherit;
+}
+
+.rights {
+    align-items: center;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.copyright {
+    color: white;
+    padding-top: 1.5vh;
+}
