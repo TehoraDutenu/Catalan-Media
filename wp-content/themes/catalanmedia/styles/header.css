@@ -5,8 +5,9 @@
 /* Header */
 
 .header {
-    padding: 1vw 3vh;
     height: 50vh;
+    margin-bottom: 5vh;
+    padding: 1vw 3vh;
 }
 
 .titles {
@@ -27,6 +28,27 @@
     font-family: Quicksand;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3vh;
+}
+
+/* Icones Social Media */
+i {
+    color: red;
+    margin-right: 1vw;
+}
+
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding-top: 1.5vh;
+
 }
 
 /* Menu */

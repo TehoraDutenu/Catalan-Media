@@ -1,5 +1,7 @@
 <?php
 
+// - Enregistrement et création des Menus
+
 function register_menu() {
 
     register_nav_menus(array(
@@ -10,6 +12,7 @@ function register_menu() {
 
 add_action('init', 'register_menu');
 
+// -- Simple Menu pour Footer
 
 class CM_Menu extends Walker_Nav_Menu {
 
@@ -29,6 +32,7 @@ class CM_Menu extends Walker_Nav_Menu {
     }
 }
 
+// -- Menu avec sous-menus pour navigation principale
 class CM_Depth_Menu extends Walker_Nav_Menu {
 
     public function start_lvl(&$output, $depth = 0, $args = null)
@@ -90,4 +94,7 @@ class CM_Depth_Menu extends Walker_Nav_Menu {
         parent::display_element($element, $children_elements, $max_depth, $depth, $args, $output);
     }
 }
+
+
+
 

@@ -1,5 +1,52 @@
 /* Rugby-League CSS */
 
-.brutus {
-    width: 80vW;
+.rl-main {
+    width: 80%;
 }
+
+p,
+h,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Quicksand;
+}
+
+h3 {
+    color: red;
+    font-weight: 600;
+    text-align: center;
+}
+
+.gb-stadium {
+    padding-bottom: 7vh;
+    text-align: center;
+}
+
+.brutus {
+    border: 1vw ridge rgba(243, 188, 7, 0.6);
+    margin:auto;
+    padding: 1vw;
+    width: 30vw;
+}
+
+.multi-column {
+    column-count: 2;
+    column-gap: 3vw;
+    padding: 1vw;
+    padding-right: 3vw;
+    text-align: justify;
+}
+
+/* Slide */
+
+.rl-slide-1 {
+    margin:auto;
+    max-width: 65%;
+    padding-top: 3vh;
+    padding-bottom: 5vh;
+}
+
