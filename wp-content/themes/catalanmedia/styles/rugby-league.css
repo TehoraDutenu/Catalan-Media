@@ -27,7 +27,7 @@ h3 {
 }
 
 .brutus {
-    border: 1vw ridge rgba(243, 188, 7, 0.6);
+    border: 0.5vw solid rgb(249, 221, 4);
     margin:auto;
     padding: 1vw;
     width: 30vw;
@@ -41,12 +41,25 @@ h3 {
     text-align: justify;
 }
 
+hr {
+    width: 96%;
+}
+
+.dragons-pic {
+    border: 0.5vw solid rgb(249, 221, 4);
+    display: block;
+    margin: auto;
+    margin-top: 6vh;
+    padding: 1vh;
+}
+
 /* Slide */
 
 .rl-slide-1 {
+    border: 0.5vw solid rgb(249, 221, 4);
     margin:auto;
+    margin-bottom: 3vh;
     max-width: 65%;
-    padding-top: 3vh;
-    padding-bottom: 5vh;
+    padding: 2vh;
 }
 

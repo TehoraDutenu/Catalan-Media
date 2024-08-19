@@ -52,17 +52,22 @@
                     There was a resurgence after the war but the game never fully recovered and it is now mainly played in the southern corners of France.
                     There is a French national team (nickname Les Chanticleers “The Singing Cockerels”) made up entirely of players from this region and a national governing body, the Federation Française de Rugby à XIII.
                 </p>
-             </div>
-         </div>
- 
-         <!-- Sidebar à droite -->
-         <div class="col-md-3 rl-page-sb">
+            </div>
+        </div>
+        
+        <!-- Sidebar à droite -->
+        <div class="col-md-3 rl-page-sb">
             <div class="rl-sb-frame">
                 <?php include get_template_directory() . '/rl-sidebar.php'; ?>
             </div>
-         </div>
-     </div><!-- .row -->
- </main><!-- .rl-main -->
+        </div>
+    </div><!-- .row -->
+
+    <div class="dragons">
+        <img class="dragons-pic img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/rugby-league/dragons.webp" alt="Dragons Catalans">
+    </div>
+
+</main><!-- .rl-main -->
  
  <?php get_footer(); ?>
  
