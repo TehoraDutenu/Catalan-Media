@@ -95,6 +95,22 @@ class CM_Depth_Menu extends Walker_Nav_Menu {
     }
 }
 
+// -- Ajout de la bibliothèque Leaflet
+function map_in_guide() {
+    if ( is_page(26) ) {
+		echo '<p>exécution de la fonction map_in_guide</p>';
 
+        // Inclure la bibliothèque Leaflet CSS
+        wp_enqueue_style( 'leaflet', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css' );
 
+        // Inclure la bibliothèque Leaflet JavaScript
+        wp_enqueue_script( 'leaflet', 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js', array(), null, true );
 
+        // Script pour OpenStreetMap		
+        wp_register_script( 'guide-map', get_template_directory_uri() . '/js/guide-map.js', array( 'leaflet', 'jquery' ), '1.0.0', true );
+
+        // Enfiler le script
+        wp_enqueue_script( 'guide-map' );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'map_in_guide' );

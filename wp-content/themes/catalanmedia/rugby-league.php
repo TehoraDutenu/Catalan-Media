@@ -61,7 +61,9 @@
                 <?php include get_template_directory() . '/rl-sidebar.php'; ?>
             </div>
         </div>
-    </div><!-- .row -->
+    </div>
+	
+	<!-- .row -->
 
     <div class="dragons">
         <img class="dragons-pic img-fluid" src="<?php echo get_template_directory_uri(); ?>/images/rugby-league/dragons.webp" alt="Dragons Catalans">

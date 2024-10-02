@@ -17,10 +17,15 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/rugby-league.css"; ?>">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/rl-sidebar.css"; ?>">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/footer.css"; ?>">
-
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/guide.css"; ?>">
+		
+		
         <title>Catalan Media</title>
     </head>
     <body>
+
+		<?php wp_head(); ?>
+
         <!-- Header -->
         <header class="header">
             <div class="titles">
