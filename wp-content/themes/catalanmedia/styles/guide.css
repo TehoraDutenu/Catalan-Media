@@ -1,7 +1,168 @@
 /**** CSS Guide ****/
 
-#perpi-map {
-	height: 60vh;
+.guide-main {
 	margin: auto;
-	width: 50%;
+    width: 80%;
+}
+
+h5,
+p {
+	font-family: Quicksand;
+}
+
+.guide-main h2 {
+	color: red;
+	font-weight: 600;
+	text-align: center;	
+}
+
+.guide-main a {
+	color: red;
+	text-decoration: none;
+}
+
+.guide-main a:hover {
+	text-decoration: underline;
+}
+
+.guide-main p {
+	margin-bottom: 5vh;
+}
+
+.guide-img {
+	display: flex;
+	margin: auto;
+	margin-bottom: 5vh;
+}
+
+
+/* Map */
+
+#perpi-map {
+	height: 80vh;
+	margin: auto;
+	margin-bottom: 5vh;
+	width: 80%;
+}
+
+div.leaflet-popup-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 17vw;
+}
+
+.leaflet-popup-content {
+	max-width: 300px; /* Définir une largeur maximale */
+	overflow: auto; /* Permet aux pop-up d’échapper aux bordures */
+    white-space: normal; /* Permet aux lignes de texte de revenir à la ligne */
+    width: auto; /* Ajuste automatiquement la taille en fonction du contenu */
+}
+
+.popup-content img {
+	margin-top: 1vh;
+    max-width: 100%; /* Les images ne dépasseront pas la taille du conteneur */
+    height: auto; /* Redimensionne l'image proportionnellement */
+}
+
+
+.popup-content h5 {
+	text-align:center; 
+	padding-top: 3vh;
+}
+
+.popup-content p {
+	text-align: center;
+}
+
+/* Sidebar */
+
+.guide-page-sb {
+	align-items: center;
+	background-image: url(/wp-content/themes/catalanmedia/images/rugby-league/dra_fans.webp);
+	background-position: center; /* Centrer l'image de fond */
+	background-size: cover; /* Couvre toute la zone disponible */
+	box-sizing: border-box;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	margin-top: 2vh;
+	padding: 10px;
+}
+
+/* Cadre intérieur de la sidebar */
+
+.guide-sb-frame {
+	background-color: rgba(249, 245, 238, 0.8); /* Couleur de fond avec transparence */
+	border-radius: 10px; /* Ajoute des coins arrondis */
+	box-sizing: border-box; /* Inclut le padding dans la largeur et hauteur */
+	height: auto; /* Laisse la hauteur s'ajuster automatiquement */
+	padding: 20px; /* Espacement intérieur pour éloigner le texte du bord */
+	width: 100%; /* Occupe tout l'espace disponible dans la colonne */
+}
+
+/* Texte de la sidebar */
+
+.guide-sb-frame h5,
+.guide-sb-frame h4 {
+	font-family: Quicksand;
+	font-weight: 700;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+}    
+
+/* Stadium */
+
+#road_pdf {
+	margin-bottom: 3vh;
+	text-align: center;
+}
+
+#road_pdf a {
+	color: black;
+	font-size: medium;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.guide-friendly p {
+	align-content: center;
+	margin-top: 2vh;
+	text-align: center;
+}
+
+.guide-friendly img {
+	width: 20vw;
+}
+
+.guide-stadium {
+	margin-bottom: 5vh;
+}
+
+.guide-stadium h4 {
+	color: red;
+	font-weight: 600;
+	text-align: center;
+}
+
+.guide-ground p,
+.guide-stadium p {
+	text-align: center;
+	font-weight: 600;
+}
+
+.guide-stadium hr,
+.guide-ground hr {
+	margin-bottom: 2.5vh;
+	margin-top: 2.5vh;
+}
+
+.crowd-sb {
+	margin-top: 5vh;
+}
+
+.by-night {
+	align-content: center;
+	margin-top: 5vh;
+	width: 80%;
 }

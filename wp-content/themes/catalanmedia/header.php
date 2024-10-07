@@ -14,10 +14,11 @@
         <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/style.css"; ?>">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/header.css"; ?>">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/frontpage.css"; ?>">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/rugby-league.css"; ?>">
-        <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/rl-sidebar.css"; ?>">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/french13.css"; ?>">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/footer.css"; ?>">
         <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/guide.css"; ?>">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/culture.css"; ?>">
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri() . "/styles/out.css"; ?>">
 		
 		
         <title>Catalan Media</title>

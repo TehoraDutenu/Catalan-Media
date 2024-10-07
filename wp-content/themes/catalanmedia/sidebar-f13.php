@@ -1,9 +1,9 @@
 
-<!-- Sidebar de la page RL -->
+<!-- Sidebar de la page French XIII -->
 
 
 <aside class="segadors">
-    <h4>Fiers d'être Catalans</h4>
+    <h4 style="margin-top: 1vh;">Fiers d'être Catalans</h4>
 
     <p class="poem anthem-intro">
         Before each game at the Stade Gilbert Brutus, Catalans Dragons supporters sing the anthem of Catalonia Els Segadors

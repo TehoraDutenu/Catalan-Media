@@ -1,6 +1,6 @@
  <?php
  /*
-  * Template Name: Rugby League
+  * Template Name: French XIII
   */
  
  get_header(); ?>
@@ -33,7 +33,7 @@
                     The Catalans Dragons are a professional side who play at the top level of the game - the English Super League. Based at the Stade Gilbert Brutus, they regularly attract thousands of fans from England to watch matches in Perpignan, along with a passionate crowd of vocal locals.
                 </p>
 
-                <div class="rl-slide-1 big devices">
+                <div class="rl-slide-1 big-devices">
                     <?php
                         echo apply_shortcodes('[smartslider3 slider="3"]');
                     ?>
@@ -58,7 +58,7 @@
         <!-- Sidebar à droite -->
         <div class="col-md-3 rl-page-sb">
             <div class="rl-sb-frame">
-                <?php include get_template_directory() . '/rl-sidebar.php'; ?>
+                <?php include get_template_directory() . '/sidebar-f13.php'; ?>
             </div>
         </div>
     </div>
