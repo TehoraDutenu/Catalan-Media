@@ -4,3 +4,47 @@
 	margin: auto;
     width: 80%;
 }
+
+.out-main img {
+	align-content: center;
+	display: block;
+}
+
+
+
+
+/* Sidebar */
+
+.out-page-sb {
+	align-items: center;
+	background-image: url(/wp-content/themes/catalanmedia/images/rugby-league/dra_fans.webp);
+	background-position: center; /* Centrer l'image de fond */
+	background-size: cover; /* Couvre toute la zone disponible */
+	box-sizing: border-box;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+	margin-top: 2vh;
+	padding: 10px;
+}
+
+/* Cadre intérieur de la sidebar */
+
+.out-sb-frame {
+	background-color: rgba(249, 245, 238, 0.8); /* Couleur de fond avec transparence */
+	border-radius: 10px; /* Ajoute des coins arrondis */
+	box-sizing: border-box; /* Inclut le padding dans la largeur et hauteur */
+	height: auto; /* Laisse la hauteur s'ajuster automatiquement */
+	padding: 20px; /* Espacement intérieur pour éloigner le texte du bord */
+	width: 100%; /* Occupe tout l'espace disponible dans la colonne */
+}
+
+/* Texte de la sidebar */
+
+.out-sb-frame h5,
+.out-sb-frame h4 {
+	font-family: Quicksand;
+	font-weight: 700;
+	margin-bottom: 2vh;
+	margin-top: 2vh;
+}    

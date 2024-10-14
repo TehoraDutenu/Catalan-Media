@@ -20,7 +20,7 @@
     </div>
 
     <div class="rights">
-        <p class="copyright">&copy; 2023 Catalan Media.</p>
+        <p class="copyright">&copy; 2024 Catalan Media.</p>
     </div>
 </footer>
 
